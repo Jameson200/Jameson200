@@ -29,7 +29,7 @@ public class SQLInjection {
                 }
                 
             } catch (SQLException ex) {
-                System.out.println("Problém s databázi: " + ex.getMessage());
+                System.out.println("Nastal problém s databází: " + ex.getMessage());
             }
         } catch (ClassNotFoundException ex) {
             System.out.println("Nebyl nalezen ovladač.");
